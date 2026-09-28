@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8fafc;
+    color: #212529; 
+    line-height: 170%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+.section-description {
+    margin-bottom: 30px;
+}
+
+/* Hero section */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greet {
+    font-size: 20px;
+    color: #06d6a0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    line-height: 120%;
+    color: #0f172a;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #64748b;
+}
+
+.hero-summary {
+    max-width: 550px;
+    font-size: 18px;
+    color: #475569;
+}
+
+.hero-image img {
+    border-radius: 80px;
+}
+
+/* About section */
+.about p {
+    max-width: 850px;
+    font-size: 18px;
+    color: #475569;
+}
+
+
+/* Skills section */
+.skills ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.skills li {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skills li:hover {
+    background-color: #00afb9;
+    color: white;
+    scale: 1.1;
+}
+
+
+/* Contact section */
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.contact-info p {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.contact textarea {
+    min-height: 140px;
+}
+
+.contact button {
+    border: none;
+    background-color: #00afb9;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #2a9d8f;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+}
